@@ -45,7 +45,7 @@ export interface FastAverageColorResult {
     error?: Error;
 }
 
-export default class FastAverageColor {
+class FastAverageColor {
     canvas: HTMLCanvasElement | OffscreenCanvas | null = null;
     ctx: CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D | null = null;
 
@@ -238,3 +238,5 @@ export default class FastAverageColor {
         });
     }
 }
+
+export default FastAverageColor
