@@ -240,3 +240,4 @@ class FastAverageColor {
 }
 
 export default FastAverageColor
+export const HzzTest = FastAverageColor
